@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <img src="/image/Cap/Cover.jpg" alt="" />
+</template>
 
 <style>
 .overlay {
