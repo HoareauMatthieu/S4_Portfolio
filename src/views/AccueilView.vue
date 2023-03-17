@@ -14,10 +14,10 @@
         <h1 class="lg:hidden">Matthieu Hoareau | Fringz</h1>
         <!-- DIV 1 -->
         <div class="boxcontainer lg:w-1/2">
-          <video autoplay loop muted><source src="/image/Bleu/bleu.mp4" type="video/mp4" /></video>
+          <!--  <video autoplay loop muted><source src="/image/Bleu/bleu.mp4" type="video/mp4" /></video>
           <div class="banner">
             <h1 class="text-8xl font-bold leading-none lg:text-max">PORT FOLIO</h1>
-          </div>
+          </div>-->
         </div>
 
         <!------------------------------------------------------------------------------------------------------------------------->
