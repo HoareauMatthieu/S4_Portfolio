@@ -1,7 +1,7 @@
 <template class="container h-screen overflow-hidden 0">
   <main>
     <div class="mt-56">
-      <img src="public/image/Stuff/profilpic.jpg" alt="Description de l'image" class="mr-auto ml-auto h-auto w-72 object-cover" />
+      <img src="/image/Stuff/profilpic.jpg" alt="Description de l'image" class="mr-auto ml-auto h-auto w-72 object-cover" />
       <h1 class="mt-4 text-center text-3xl uppercase">Fringz - Matthieu HOAREAU</h1>
       <p class="text-center text-sm">“L'unique chose dont le monde n'aura jamais assez est l'exagération.”</p>
       <p class="text-center text-sm">Salvador Dali</p>
