@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="gap- flex w-1/3 flex-col justify-between gap-0 lg:w-1/2">
-          <p class="mt-6 text-justify text-xs opacity-100 duration-1000 lg:opacity-0 lg:transition-opacity" :id="descriptionId">
+          <p class="duration-800 mt-6 text-justify text-xs opacity-100 transition-opacity lg:opacity-0" :id="descriptionId">
             For the release of the first project of the promising Parisian rapper Deemax, I was in charge of the entire art direction of the
             project. The goal was to create a strong imagery, reminding the old school aspect of Deemax's music, while being a subtle
             reminder of the subject : "cap & hood". The starting point was to focus on the center of the project: the cover. It was
@@ -129,7 +129,7 @@
             <img class="w-1/2 object-contain" :src="overlayImageSrc2" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
-          <p class="mt-6 w-1/2 pr-52 pl-9 text-justify text-xs opacity-0 transition-opacity duration-500" :id="descriptionId2">
+          <p class="duration-800 mt-6 w-1/2 pr-52 pl-9 text-justify text-xs opacity-0 transition-opacity" :id="descriptionId2">
             The project required a lot of work and some of the interesting proposals that did not fit into the framework of an album cover
             (lacking visual imact) were reused for the interviews with the media.
           </p>
@@ -197,7 +197,7 @@
             <img class="w-1/2 object-contain" :src="overlayImageSrc4" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
-          <p class="mt-6 w-1/3 px-12 pl-9 text-justify text-xs opacity-0 transition-opacity duration-500" :id="descriptionId3">
+          <p class="duration-800 mt-6 w-1/3 px-12 pl-9 text-justify text-xs opacity-0 transition-opacity" :id="descriptionId3">
             I also took care of the Tracklist which is an extension of the cover with the graphic style of the latter. The whole was
             realized in order to conceive soon physical CD of the project.
           </p>
@@ -208,7 +208,7 @@
           </div>
         </div>
         <div class="flex w-full flex-row-reverse items-end">
-          <p class="w-1/3 pl-9 pb-6 pr-20 text-justify text-xs opacity-0 transition-opacity duration-500" :id="descriptionId4">
+          <p class="duration-800 w-1/3 pl-9 pb-6 pr-20 text-justify text-xs opacity-0 transition-opacity" :id="descriptionId4">
             The artistic direction of the album was also accompanied by a visual clip animated by me, which was released on my own accounts
             for reasons of timing. The clip which I directed the scenario, the editing, as well as the illustrations had for goal to take
             again this artistic direction contrasting the black and white in a slightly different style to evoke the topic of the project

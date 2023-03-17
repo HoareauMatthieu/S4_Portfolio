@@ -12,6 +12,8 @@ import CapView from '../views/CapView.vue'
 import BleuView from '../views/BleuView.vue'
 import DeemaxView from '../views/DeemaxView.vue'
 import UgbView from '../views/UgbView.vue'
+import RougeView from '../views/RougeView.vue'
+import BBView from '../views/BBView.vue'
 import P404View from '../views/P404View.vue'
 
 
@@ -31,6 +33,8 @@ const router = createRouter({
     { path: '/bleu', name: 'bleu', component: BleuView },
     { path: '/deem', name: 'deem', component: DeemaxView },
     { path: '/ugb', name: 'ugb', component: UgbView },
+    { path: '/rouge', name: 'rouge', component: RougeView },
+    { path: '/bb', name: 'bb', component: BBView },
 
 
     {
