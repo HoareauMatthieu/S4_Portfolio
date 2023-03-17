@@ -35,7 +35,7 @@
         <div class="grid-col-3 mr-auto ml-auto grid h-fit w-full gap-8 text-center uppercase lg:m-auto lg:w-1/2">
           <Bouton class="col-span-2 col-start-2 list-none text-xs sm:text-xl" id="button1">
             <li>
-              <router-link to="/artdirection">--> Art Direction</router-link>
+              <router-link to="/artdirection">--> Art Directionnne</router-link>
             </li>
           </Bouton>
           <Bouton class="col-span-2 list-none text-xs sm:text-xl">
