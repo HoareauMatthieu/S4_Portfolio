@@ -1,5 +1,10 @@
 <template>
-  <img src="/image/Cap/Cover.jpg" alt="" />
+  <div class="relative w-full pt-56">
+    <img src="/image/Cap/Cover.jpg" alt="" class="h-44 w-full object-cover" />
+    <div class="overlay absolute inset-0 hidden">
+      <img src="/image/Cap/Cover.jpg" alt="" class="h-full w-full object-contain" />
+    </div>
+  </div>
 </template>
 
 <style>
