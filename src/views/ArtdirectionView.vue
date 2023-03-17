@@ -32,7 +32,7 @@
 
     <div class="relative w-full bg-blue-400">
       <router-link to="/bb">
-        <img src="/image/Cap/Cover.jpg" alt="" class="h-full w-full object-cover" />
+        <img src="/image/Bb/Color.jpg" alt="" class="h-full w-full object-cover" />
         <div
           class="absolute top-0 left-0 flex h-full w-full items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100"
         >

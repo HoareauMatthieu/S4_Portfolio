@@ -3,29 +3,27 @@
     <div class="-mb-16 h-screen">
       <h1 class="mb-7 ml-6 text-4xl font-bold tracking-tight sm:ml-0 sm:text-7xl">Burning Boy</h1>
       <div class="h-4/6 bg-blue-400 sm:h-4/6">
-        <img class="h-full w-full object-cover" src="/image/Bleu/clip1.png" alt="" />
+        <img class="h-full w-full object-cover object-left-top" src="/image/Bb/Color.jpg" alt="" />
       </div>
       <div class="flex justify-between">
         <div class="animate__animated animate__fadeIn p-4 text-sm">
-          <p>BLEU - LAPOSTROZ 02/2023</p>
+          <p>BURNING BOY - FRINGZ 06/2022</p>
         </div>
         <div class="p-4 text-sm">
-          <p class="animate__animated animate__fadeIn text-center">
-            Creation of the visual identity and co-production of the artistic direction of the project
-          </p>
+          <p class="animate__animated animate__fadeIn text-center">Creation of a brand image</p>
         </div>
         <div class="p-4 text-sm">
-          <p class="animate__animated animate__fadeIn text-right">COVER + DA + GRAPHIC CREATION OF THE CLIP</p>
+          <p class="animate__animated animate__fadeIn text-right">VISUAL TEXTILE + ART DIRECTION + COMMUNICATION</p>
         </div>
       </div>
     </div>
 
     <!--VERSION MOBILE -->
     <div class="block sm:hidden">
-      <h2 class="reveal ml-6 text-7xl font-bold tracking-tight sm:text-9xl">Blue vision.</h2>
+      <h2 class="reveal ml-6 text-7xl font-bold tracking-tight sm:text-9xl">Expand the vision..</h2>
       <div class="flex flex-col items-center">
         <div class="mt-3 w-9/12">
-          <img class="object-cover" src="/image/Bleu/Cover.jpg" alt="" @click="showOverlay(1)" />
+          <img class="object-cover" src="/image/Bb/Bbvisu.png" alt="" @click="showOverlay(1)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -33,14 +31,11 @@
         </div>
         <div class="flex w-11/12 flex-col justify-between">
           <p class="reveal mt-6 text-justify text-xs transition-opacity duration-500">
-            After the release of his EP Rouge in May 2022, Lapostroz, a young artist from Nice based in the Capital, released 2 singles for
-            which I made the visuals. After one year of waiting, he finally came back in March 2022 with the sequel of his first Volume
-            entitled BLEU. I was in charge of the visual aspect and the artistic direction of the cover. We decided to prolong the style and
-            the vision established in his first project ROUGE. More introspective, we decided via the color BLUE to represent this time
-            Lapostroz himself on the cover in order to stick with the theme and the subjects treated in the project. The style, although
-            similar, has been purified and the lines are more precise, allowing to produce a project with an even more efficient visual (and
-            as a proof of my progression as an artist). Also wanting to make a reminder to his hometown, the blue at the origin of this
-            production is Klein blue, created by the artist Yves Klein from Nice who painted his city with it.
+            Burning Boy is a textile project that I initiated with the goal of extending my vision and creativity to other media than
+            digital artwork. The basic concept was to create a small line of clothing with a strong theme around which to communicate. The
+            inspiration came from the creation itself and the theme of the collection was the "flame" of passion that burns within each of
+            us and that just wants to come out. This representation of the flame was made around a character as an emblem: the Burning Boy.
+            To be a "Burning Boy" is to let this flame come out and to realize your desires, to fulfill your passions.
           </p>
         </div>
       </div>
@@ -50,7 +45,7 @@
     <div class="hidden sm:block lg:hidden">
       <div class="flex gap-5">
         <div class="w-2/3 lg:w-1/2">
-          <img class="object-cover lg:w-3/4" src="/image/Bleu/Cover.jpg" alt="" @click="showOverlay(1)" />
+          <img class="object-cover lg:w-3/4" src="/image/Bb/Bbvisu.png" alt="" @click="showOverlay(1)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="w-1/2 object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -58,12 +53,12 @@
         </div>
         <div class="flex w-1/3 flex-col justify-between lg:w-1/2">
           <p class="reveal mt-6 text-justify text-xs opacity-100 duration-1000 lg:transition-opacity">
-            After the release of his EP Rouge in May 2022, Lapostroz, a young artist from Nice based in the Capital, released 2 singles for
-            which I made the visuals. After one year of waiting, he finally came back in March 2022 with the sequel of his first Volume
-            entitled BLEU. I was in charge of the visual aspect and the artistic direction of the cover. We decided to prolong the style and
-            the vision established in his first project ROUGE.
+            Burning Boy is a textile project that I initiated with the goal of extending my vision and creativity to other media than
+            digital artwork. The basic concept was to create a small line of clothing with a strong theme around which to communicate. The
+            inspiration came from the creation itself and the theme of the collection was the "flame" of passion that burns within each of
+            us and that just wants to come out. This representation of the flame was made around a character as an emblem: the Burning Boy.
           </p>
-          <h2 class="reveal cursor-pointer text-6xl font-bold tracking-tight">Blue vision.</h2>
+          <h2 class="reveal cursor-pointer text-6xl font-bold tracking-tight">Expand the vision..</h2>
         </div>
       </div>
     </div>
@@ -72,7 +67,7 @@
     <div class="hidden lg:block">
       <div class="flex gap-5">
         <div class="w-2/3 lg:w-1/2">
-          <img class="object-cover lg:w-3/4" src="/image/Bleu/Cover.jpg" alt="" @click="showOverlay(1)" />
+          <img class="object-cover lg:w-3/4" src="/image/Bb/Bbvisu.png" alt="" @click="showOverlay(1)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="w-1/2 object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -80,22 +75,19 @@
         </div>
         <div class="gap- flex w-1/3 flex-col justify-between gap-0 lg:w-1/2">
           <p class="duration-800 mt-6 text-justify text-xs opacity-100 transition-opacity lg:opacity-0" :id="descriptionId">
-            After the release of his EP Rouge in May 2022, Lapostroz, a young artist from Nice based in the Capital, released 2 singles for
-            which I made the visuals. After one year of waiting, he finally came back in March 2022 with the sequel of his first Volume
-            entitled BLEU. I was in charge of the visual aspect and the artistic direction of the cover. We decided to prolong the style and
-            the vision established in his first project ROUGE. More introspective, we decided via the color BLUE to represent this time
-            Lapostroz himself on the cover in order to stick with the theme and the subjects treated in the project. The style, although
-            similar, has been purified and the lines are more precise, allowing to produce a project with an even more efficient visual (and
-            as a proof of my progression as an artist). Also wanting to make a reminder to his hometown, the blue at the origin of this
-            production is Klein blue, created by the artist Yves Klein from Nice who painted his city with it.
+            Burning Boy is a textile project that I initiated with the goal of extending my vision and creativity to other media than
+            digital artwork. The basic concept was to create a small line of clothing with a strong theme around which to communicate. The
+            inspiration came from the creation itself and the theme of the collection was the "flame" of passion that burns within each of
+            us and that just wants to come out. This representation of the flame was made around a character as an emblem: the Burning Boy.
+            To be a "Burning Boy" is to let this flame come out and to realize your desires, to fulfill your passions.
           </p>
           <h2
-            class="reveal animate-pulse cursor-pointer text-5xl font-bold tracking-tight opacity-0 hover:animate-none lg:text-9xl"
+            class="reveal animate-pulse cursor-pointer text-5xl font-bold tracking-tight opacity-0 hover:animate-none lg:text-8xl"
             @click="toggleDescription"
             @mouseover="showDescription"
             @mouseout="hideDescription"
           >
-            Blue vision.
+            Expand the vision..
           </h2>
           <p class="text-xs uppercase">( Move the mouse over the titles to learn more )</p>
         </div>
@@ -106,18 +98,20 @@
     <div class="block lg:hidden">
       <div class="mt-24 flex flex-col">
         <div class="flex w-full flex-row-reverse items-center gap-6">
-          <img class="h-52 w-1/2 object-cover" src="/image/Bleu/titre.png" alt="" @click="showOverlay(2)" />
+          <img class="h-52 w-1/2 object-cover" src="/image/Bb/Mockup.png" alt="" @click="showOverlay(2)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown2">
             <img class="object-contain sm:w-1/2" :src="overlayImageSrc2" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
           <p class="reveal mt-6 w-1/2 px-3 text-justify text-xs duration-500">
-            I also recreated a typography similar to the one on Rouge to keep a very similar design and style, linking the two projects.
+            The visual had to have a concept that speaks to people, the character in flame was then translated on textiles with a drop of
+            two black and white tee shirt and stickers. The whole was accompanied by video communicating the values of the Burning Boys and
+            photos of products.
           </p>
         </div>
         <div class="flex w-full flex-row-reverse items-end gap-6">
-          <h2 class="reveal w-1/2 cursor-pointer text-3xl font-bold tracking-tight sm:text-7xl">Titling.</h2>
-          <img class="h-52 w-1/2 object-cover object-center" src="/image/Bleu/Tracklist.png" alt="" @click="showOverlay(3)" />
+          <h2 class="reveal w-1/2 cursor-pointer text-3xl font-bold tracking-tight sm:text-7xl">Concept.</h2>
+          <img class="h-52 w-1/2 object-cover object-center" src="/image/Bb/motion.gif" alt="" @click="showOverlay(3)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown3">
             <img class="object-contain sm:w-1/2" :src="overlayImageSrc3" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -130,13 +124,15 @@
     <div class="hidden lg:block">
       <div class="mt-40 flex flex-col">
         <div class="flex w-full flex-row-reverse items-center gap-6">
-          <img class="h-52 w-1/2 object-cover" src="/image/Bleu/titre.png" alt="" @click="showOverlay(2)" />
+          <img class="h-52 w-1/2 object-cover object-top" src="/image/Bb/Mockup.png" alt="" @click="showOverlay(2)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown2">
             <img class="w-1/2 object-contain" :src="overlayImageSrc2" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
           <p class="duration-800 mt-6 w-1/2 pr-52 pl-9 text-justify text-xs opacity-0 transition-opacity" :id="descriptionId2">
-            I also recreated a typography similar to the one on Rouge to keep a very similar design and style, linking the two projects.
+            The visual had to have a concept that speaks to people, the character in flame was then translated on textiles with a drop of
+            two black and white tee shirt and stickers. The whole was accompanied by video communicating the values of the Burning Boys and
+            photos of products.
           </p>
         </div>
         <div class="flex w-full flex-row-reverse items-end gap-6">
@@ -146,9 +142,9 @@
             @mouseover="showDescription"
             @mouseout="hideDescription"
           >
-            Titling.
+            Concept.
           </h2>
-          <img class="h-52 w-1/2 object-cover object-center pr-32" src="/image/Bleu/Tracklist.png" alt="" @click="showOverlay(3)" />
+          <img class="h-52 w-1/2 object-cover object-center pr-32" src="/image/Bb/motion.gif" alt="" @click="showOverlay(3)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown3">
             <img class="w-1/2 object-contain" :src="overlayImageSrc3" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -162,29 +158,27 @@
       <div class="mt-28 flex">
         <div class="w-1/2 pr-4">
           <h2 class="reveal h-1/3 pt-7 text-4xl font-bold tracking-tight sm:text-6xl">Project extensions.</h2>
-          <img class="mb-6 w-full object-cover" src="/image/Bleu/clip2.png" alt="" @click="showOverlay(5)" />
+          <img class="mb-6 w-full object-cover" src="/image/Bb/Bbtee.jpg" alt="" @click="showOverlay(5)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown5">
             <img class="object-contain sm:w-1/2" :src="overlayImageSrc5" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
           <p class="reveal w-full text-justify text-xs duration-500">
-            I also took care of the Tracklist which is an extension of the cover with the graphic style of the latter. The whole was
-            realized in order to conceive soon physical CD of the project.
+            To push the concept even further, a contest was organized for the owners of Burning Boy products to push the creative flame
+            theme.
           </p>
         </div>
         <div class="w-1/2 pl-4">
-          <img class="mb-6 w-full object-cover" src="/image/Bleu/clip3.png" alt="" @click="showOverlay(4)" />
+          <img class="mb-6 w-full object-cover" src="/image/Bb/Color.jpg" alt="" @click="showOverlay(4)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown4">
             <img class="object-contain sm:w-1/2" :src="overlayImageSrc4" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
           <p class="reveal w-full text-justify text-xs duration-500">
-            The artistic direction of the album was also accompanied by a visual clip animated by me, which was released on my own accounts
-            for reasons of timing. The clip which I directed the scenario, the editing, as well as the illustrations had for goal to take
-            again this artistic direction contrasting the black and white in a slightly different style to evoke the topic of the project
-            under a similar angle, but which is not repetitive.
+            Each person in possession of an item had the opportunity to submit creative content (of any kind) and the winner walked away
+            with a canvas of the original Bunring Boy illustration.
           </p>
-          <img class="mt-6 mb-6 w-full object-cover" src="/image/Bleu/cliprond.png" alt="" @click="showOverlay(6)" />
+          <img class="mt-6 mb-6 w-full object-cover" src="/image/Bb/Mockuplogo.png" alt="" @click="showOverlay(6)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown6">
             <img class="object-contain sm:w-1/2" :src="overlayImageSrc6" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -197,16 +191,16 @@
     <div class="hidden lg:block">
       <div class="mt-52 flex flex-col">
         <div class="flex w-full flex-row-reverse items-center gap-0">
-          <img class="h-60 w-1/3 object-cover" src="/image/Bleu/clip3.png" alt="" @click="showOverlay(4)" />
+          <img class="h-60 w-1/3 object-cover" src="/image/Bb/Color.jpg" alt="" @click="showOverlay(4)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown4">
             <img class="w-1/2 object-contain" :src="overlayImageSrc4" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
           <p class="duration-800 mt-6 w-1/3 px-12 pl-9 text-justify text-xs opacity-0 transition-opacity" :id="descriptionId3">
-            I also took care of the Tracklist which is an extension of the cover with the graphic style of the latter. The whole was
-            realized in order to conceive soon physical CD of the project.
+            To push the concept even further, a contest was organized for the owners of Burning Boy products to push the creative flame
+            theme.
           </p>
-          <img class="h-60 w-1/3 object-cover object-top" src="/image/Bleu/clip2.png" alt="" @click="showOverlay(5)" />
+          <img class="h-60 w-1/3 object-cover object-top" src="/image/Bb/Bbtee.jpg" alt="" @click="showOverlay(5)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown5">
             <img class="w-1/2 object-contain" :src="overlayImageSrc5" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -214,12 +208,10 @@
         </div>
         <div class="flex w-full flex-row-reverse items-end">
           <p class="duration-800 w-1/3 pl-9 pb-6 pr-20 text-justify text-xs opacity-0 transition-opacity" :id="descriptionId4">
-            The artistic direction of the album was also accompanied by a visual clip animated by me, which was released on my own accounts
-            for reasons of timing. The clip which I directed the scenario, the editing, as well as the illustrations had for goal to take
-            again this artistic direction contrasting the black and white in a slightly different style to evoke the topic of the project
-            under a similar angle, but which is not repetitive.
+            Each person in possession of an item had the opportunity to submit creative content (of any kind) and the winner walked away
+            with a canvas of the original Bunring Boy illustration.
           </p>
-          <img class="h-60 w-1/3 object-cover object-center" src="/image/Bleu/cliprond.png" alt="" @click="showOverlay(6)" />
+          <img class="h-60 w-1/3 object-cover object-center" src="/image/Bb/Mockuplogo.png" alt="" @click="showOverlay(6)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown6">
             <img class="w-1/2 object-contain" :src="overlayImageSrc6" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -355,22 +347,22 @@ export default {
   },
   computed: {
     overlayImageSrc1() {
-      return this.overlayShown1 ? "/image/Bleu/Cover.jpg" : "/image/Bleu/Cover.jpg";
+      return this.overlayShown1 ? "/image/Bb/Bbvisu.png" : "/image/Bb/Bbvisu.png";
     },
     overlayImageSrc2() {
-      return this.overlayShown2 ? "/image/Bleu/titre.png" : "/image/Bleu/titre.png";
+      return this.overlayShown2 ? "/image/Bb/Mockup.png" : "/image/Bb/Mockup.png";
     },
     overlayImageSrc3() {
-      return this.overlayShown3 ? "/image/Bleu/Tracklist.png" : "/image/Bleu/Tracklist.png";
+      return this.overlayShown3 ? "/image/Bb/motion.gif" : "/image/Bb/motion.gif";
     },
     overlayImageSrc4() {
-      return this.overlayShown4 ? "/image/Bleu/clip3.png" : "/image/Bleu/clip3.png";
+      return this.overlayShown4 ? "/image/Bb/Color.jpg" : "/image/Bb/Color.jpg";
     },
     overlayImageSrc5() {
-      return this.overlayShown5 ? "/image/Bleu/clip2.png" : "/image/Bleu/clip2.png";
+      return this.overlayShown5 ? "/image/Bb/Bbtee.jpg" : "/image/Bb/Bbtee.jpg";
     },
     overlayImageSrc6() {
-      return this.overlayShown6 ? "/image/Bleu/cliprond.png" : "/image/Bleu/cliprond.png";
+      return this.overlayShown6 ? "/image/Bb/Mockuplogo.png" : "/image/Bb/Mockuplogo.png";
     },
   },
   mounted() {

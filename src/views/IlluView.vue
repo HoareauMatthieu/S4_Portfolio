@@ -6,8 +6,8 @@
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
     <div class="relative h-full bg-blue-400 lg:row-span-2">
-      <router-link to="/cap">
-        <img src="/image/Cap/Cover.jpg" alt="" class="h-full w-full object-cover" />
+      <router-link to="/ugb">
+        <img src="/image/UGB/UGBFINAL.jpg" alt="" class="h-full w-full object-cover" />
         <div
           class="absolute top-0 left-0 flex h-full w-full items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100"
         >
