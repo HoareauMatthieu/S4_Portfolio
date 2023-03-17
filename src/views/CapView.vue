@@ -245,7 +245,7 @@ export default {
       descriptionId3: "description-" + Math.random().toString(36).substring(7),
       descriptionId4: "description-" + Math.random().toString(36).substring(7),
       descriptionVisible: false,
-      overlayShown: false,
+      overlayShown1: false,
       overlayShown2: false,
       overlayShown3: false,
       overlayShown4: false,
@@ -270,7 +270,7 @@ export default {
       }
     },
     hideOverlay() {
-      this.overlayShown = false;
+      this.overlayShown1 = false;
       this.overlayShown2 = false;
       this.overlayShown3 = false;
       this.overlayShown4 = false;
