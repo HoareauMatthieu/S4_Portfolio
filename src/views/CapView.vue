@@ -24,8 +24,8 @@
       <div class="flex flex-col items-center">
         <div class="mt-3 w-9/12">
           <img class="object-cover" src="/image/Cap/Cover.jpg" alt="" @click="showOverlay(1)" />
-          <div class="overlay bg-black bg-opacity-95" v-if="overlayShown">
-            <img class="object-contain" :src="overlayImageSrc" @click="hideOverlay" />
+          <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
+            <img class="object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
         </div>
@@ -47,7 +47,7 @@
       <div class="flex gap-5">
         <div class="w-2/3 lg:w-1/2">
           <img class="object-cover lg:w-3/4" src="/image/Cap/Cover.jpg" alt="" @click="showOverlay(1)" />
-          <div class="overlay bg-black bg-opacity-95" v-if="overlayShown">
+          <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="w-1/2 object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
@@ -68,7 +68,7 @@
       <div class="flex gap-5">
         <div class="w-2/3 lg:w-1/2">
           <img class="object-cover lg:w-3/4" src="/image/Cap/Cover.jpg" alt="" @click="showOverlay(1)" />
-          <div class="overlay bg-black bg-opacity-95" v-if="overlayShown">
+          <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="w-1/2 object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
