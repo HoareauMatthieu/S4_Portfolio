@@ -26,7 +26,7 @@
         <div class="flex justify-between text-xs lg:hidden">
           <p>Designer Digital</p>
           <p>Production Visuel</p>
-          <p>Création d'identité Visuel</p>
+          <p>Visual Identity</p>
         </div>
 
         <!------------------------------------------------------------------------------------------------------------------------->
