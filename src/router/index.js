@@ -10,6 +10,7 @@ import MentionsView from '../views/MentionsView.vue'
 import GdsView from '../views/GdsView.vue'
 import CapView from '../views/CapView.vue'
 import BleuView from '../views/BleuView.vue'
+import DeemaxView from '../views/DeemaxView.vue'
 import P404View from '../views/P404View.vue'
 
 
@@ -27,6 +28,7 @@ const router = createRouter({
     { path: '/style-guide', name: 'style-guide', component: GdsView },
     { path: '/cap', name: 'cap', component: CapView },
     { path: '/bleu', name: 'bleu', component: BleuView },
+    { path: '/deem', name: 'deem', component: DeemaxView },
 
 
     {

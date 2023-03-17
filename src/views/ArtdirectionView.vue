@@ -5,7 +5,7 @@
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-    <div class="relative row-span-2 h-full bg-blue-400">
+    <div class="relative h-full bg-blue-400 lg:row-span-2">
       <router-link to="/cap">
         <img src="/image/Cap/Cover.jpg" alt="" class="h-full w-full object-cover" />
         <div
@@ -35,7 +35,7 @@
         <h2 class="text-xl uppercase text-white">Votre texte ici</h2>
       </div>
     </div>
-    <div class="relative col-span-2 h-60 w-full bg-blue-500">
+    <div class="relative h-full w-full bg-blue-500 lg:col-span-2 lg:h-64">
       <img src="/image/Rouge/cover.jpeg" alt="" class="h-full w-full object-cover object-center" />
       <div class="absolute top-0 left-0 flex h-full w-full items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100">
         <h2 class="text-xl uppercase text-white">Votre texte ici</h2>

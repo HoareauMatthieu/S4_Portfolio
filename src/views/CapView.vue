@@ -55,8 +55,8 @@
     <div class="hidden lg:block">
       <div class="flex gap-5">
         <div class="w-2/3 lg:w-1/2"><img class="object-cover lg:w-3/4" src="/image/Cap/Cover.jpg" alt="" /></div>
-        <div class="flex w-1/3 flex-col justify-between lg:w-1/2">
-          <p class="mt-6 text-justify text-xs opacity-100 duration-1000 lg:pr-36 lg:opacity-0 lg:transition-opacity" :id="descriptionId">
+        <div class="flex w-1/3 flex-col justify-between gap-3 lg:w-1/2">
+          <p class="mt-6 text-justify text-xs opacity-100 duration-1000 lg:opacity-0 lg:transition-opacity" :id="descriptionId">
             For the release of the first project of the promising Parisian rapper Deemax, I was in charge of the entire art direction of the
             project. The goal was to create a strong imagery, reminding the old school aspect of Deemax's music, while being a subtle
             reminder of the subject : "cap & hood". The starting point was to focus on the center of the project: the cover. It was
@@ -72,6 +72,7 @@
           >
             Art direction.
           </h2>
+          <p class="order-last -mt-14 text-xs uppercase">( Move the mouse over the titles to learn more )</p>
         </div>
       </div>
     </div>
