@@ -3,7 +3,7 @@
     <div class="-mb-16 h-screen">
       <h1 class="mb-7 ml-6 text-4xl font-bold tracking-tight sm:ml-0 sm:text-7xl">Alpha Ghetti</h1>
       <div class="h-4/6 bg-blue-400 sm:h-4/6">
-        <img class="h-full w-full object-cover" src="/image/Alpha/canmock.jpg" alt="" />
+        <img class="h-full w-full object-cover" src="/image/alpha/canmock.jpg" alt="" />
       </div>
       <div class="flex justify-between">
         <div class="animate__animated animate__fadeIn p-4 text-sm">
@@ -21,7 +21,7 @@
       <h2 class="reveal ml-6 text-7xl font-bold tracking-tight sm:text-9xl">Rebranding.</h2>
       <div class="flex flex-col items-center">
         <div class="mt-3 w-9/12">
-          <img class="object-cover" src="/image/Alpha/alphaposter.jpg" alt="" @click="showOverlay(1)" />
+          <img class="object-cover" src="/image/alpha/alphaposter.jpg" alt="" @click="showOverlay(1)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -45,7 +45,7 @@
     <div class="hidden sm:block lg:hidden">
       <div class="flex gap-5">
         <div class="w-2/3 lg:w-1/2">
-          <img class="object-cover lg:w-3/4" src="/image/Alpha/alphaposter.jpg" alt="" @click="showOverlay(1)" />
+          <img class="object-cover lg:w-3/4" src="/image/alpha/alphaposter.jpg" alt="" @click="showOverlay(1)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="w-1/2 object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -70,7 +70,7 @@
     <div class="hidden lg:block">
       <div class="flex gap-5">
         <div class="w-2/3 lg:w-1/2">
-          <img class="object-cover lg:w-3/4" src="/image/Alpha/alphaposter.jpg" alt="" @click="showOverlay(1)" />
+          <img class="object-cover lg:w-3/4" src="/image/alpha/alphaposter.jpg" alt="" @click="showOverlay(1)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown1">
             <img class="w-1/2 object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
@@ -350,16 +350,16 @@ export default {
   },
   computed: {
     overlayImageSrc1() {
-      return this.overlayShown1 ? "/image/Alpha/alphaposter.jpg" : "/image/Alpha/alphaposter.jpg";
+      return this.overlayShown1 ? "/image/alpha/alphaposter.jpg" : "/image/alpha/alphaposter.jpg";
     },
     overlayImageSrc2() {
-      return this.overlayShown2 ? "/image/Alpha/Alphalogo.png" : "/image/Alpha/Alphalogo.png";
+      return this.overlayShown2 ? "/image/alpha/Alphalogo.png" : "/image/alpha/Alphalogo.png";
     },
     overlayImageSrc3() {
-      return this.overlayShown3 ? "/image/Alpha/alphapatron.jpg" : "/image/Alpha/alphapatron.jpg";
+      return this.overlayShown3 ? "/image/alpha/alphapatron.jpg" : "/image/alpha/alphapatron.jpg";
     },
     overlayImageSrc4() {
-      return this.overlayShown4 ? "/image/Aq/alpha/visuel.jpg" : "/image/Aq/alpha/visuel.jpg";
+      return this.overlayShown4 ? "/image/alpha/visuel.jpg" : "/image/alpha/visuel.jpg";
     },
     overlayImageSrc5() {
       return this.overlayShown5 ? "/image/alpha/alphawip.png" : "/image/alpha/alphawip.png";
