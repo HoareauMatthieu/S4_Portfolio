@@ -5,7 +5,9 @@
 
   <router-view class="z-10"></router-view>
 
-  <footer :class="{ hidden: $route.name === 'Accueil' || $route.name === 'Apropos' }"><footer-app></footer-app></footer>
+  <footer :class="{ hidden: $route.name === 'Accueil' || $route.name === 'Apropos' || $route.name === 'Contact' }">
+    <footer-app></footer-app>
+  </footer>
 </template>
 
 <script>

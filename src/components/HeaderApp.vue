@@ -18,9 +18,9 @@
         :class="{ 'translate-x-[5rem]': menuOuvert }"
       >
         <ul class="m-14 mt-24 flex flex-col gap-16 text-center sm:text-2xl">
-          <li><router-link to="/artiste" class="hover:text-red-400">Artistes</router-link></li>
-          <li><router-link to="/festival" class="hover:text-red-400">Festival</router-link></li>
-          <li><router-link to="/concert" class="hover:text-red-400">Concert</router-link></li>
+          <li><router-link to="/artiste">WORK</router-link></li>
+          <li><router-link to="/festival">ABOUT</router-link></li>
+          <li><router-link to="/concert">CONTACT ME</router-link></li>
         </ul>
         <icon-logo class="ml-auto mr-auto h-40 w-40"><span class="sr-only">Logo</span></icon-logo>
       </div>
@@ -31,13 +31,13 @@
       <div class="flex flex-auto items-center justify-end">
         <ul class="flex list-none items-center gap-10 p-3 pl-14">
           <li>
-            <router-link to="/artiste"><bouton class="px-20 text-base">TRAVAUX</bouton></router-link>
+            <router-link to="/"><bouton class="px-20 text-base">WORK</bouton></router-link>
           </li>
           <li>
-            <router-link to="/apropos"><bouton class="px-20 text-base">A PROPOS</bouton></router-link>
+            <router-link to="/apropos"><bouton class="px-20 text-base">ABOUT</bouton></router-link>
           </li>
           <li>
-            <router-link to="/contact"><bouton class="px-20 text-base">CONTACT</bouton></router-link>
+            <router-link to="/contact"><bouton class="px-20 text-base">CONTACT ME</bouton></router-link>
           </li>
         </ul>
       </div>
