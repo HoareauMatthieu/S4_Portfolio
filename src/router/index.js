@@ -14,6 +14,13 @@ import DeemaxView from '../views/DeemaxView.vue'
 import UgbView from '../views/UgbView.vue'
 import RougeView from '../views/RougeView.vue'
 import BBView from '../views/BBView.vue'
+import FLView from '../views/FLView.vue'
+import CsView from '../views/CsView.vue'
+import MomentView from '../views/MomentView.vue'
+import NewpomView from '../views/NewpomView.vue'
+import ArquestView from '../views/ArquestView.vue'
+import AlphaView from '../views/AlphaView.vue'
+import FestView from '../views/FestView.vue'
 import P404View from '../views/P404View.vue'
 
 
@@ -35,6 +42,13 @@ const router = createRouter({
     { path: '/ugb', name: 'ugb', component: UgbView },
     { path: '/rouge', name: 'rouge', component: RougeView },
     { path: '/bb', name: 'bb', component: BBView },
+    { path: '/fl', name: 'fl', component: FLView },
+    { path: '/cs', name: 'cs', component: CsView },
+    { path: '/moment', name: 'moment', component: MomentView },
+    { path: '/arquest', name: 'arquest', component: ArquestView },
+    { path: '/alpha', name: 'alpha', component: AlphaView },
+    { path: '/fest', name: 'fest', component: FestView },
+    { path: '/np', name: 'newpom', component: NewpomView },
 
 
     {
