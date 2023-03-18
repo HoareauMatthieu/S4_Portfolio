@@ -54,7 +54,7 @@
       <img src="/image/other/10.jpg" class="" alt="Image" />
     </div>
     <div class="relative">
-      <img src="/image/Cascade/Cover.jpg" class="" alt="Image" />
+      <img src="/image/Cascade/cover.jpg" class="" alt="Image" />
     </div>
     <div class="relative">
       <img src="/image/Rouge/cover.jpeg" class="" alt="Image" />
