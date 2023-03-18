@@ -1,7 +1,7 @@
  <template>
   <div class="fixed top-0 left-0 right-0 bg-black">
     <div class="flex justify-between p-3 lg:hidden">
-      <router-link to="/"><icon-logo class="h-16 w-16" /><span class="sr-only">Accueil</span></router-link
+      <router-link to="/"><icon-logo class="h-16 w-24" /><span class="sr-only">Accueil</span></router-link
       ><button
         class="relative z-50 text-xl"
         aria-haspopup="true"

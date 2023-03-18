@@ -55,7 +55,7 @@
 
           <Bouton class="col-span-2 list-none text-xs sm:text-xl">
             <li>
-              <router-link to="/artiste">--> Travaux</router-link>
+              <router-link to="/gallery">--> GALLERY</router-link>
             </li>
           </Bouton>
         </div>

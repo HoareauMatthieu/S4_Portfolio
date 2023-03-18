@@ -235,6 +235,10 @@
         </div>
       </div>
     </div>
+
+    <a href="https://youtu.be/tA3dM60y5N4"
+      ><bouton class="mx-auto mt-7 w-1/2 text-sm uppercase lg:mt-20 lg:text-xl">see the clip</bouton></a
+    >
   </div>
 </template>
 

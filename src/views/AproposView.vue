@@ -14,7 +14,7 @@
 
     <p class="absolute top-28 right-4 animate-pulse p-4 text-2xl underline"><a href="https://www.instagram.com/7fringz/">Instagram</a></p>
     <p class="absolute top-36 right-4 animate-pulse p-4 text-2xl underline"><a href="https://twitter.com/7Fringz">Twitter</a></p>
-    <p class="absolute bottom-0 right-4 p-4">Mentions légales</p>
+
     <p class="absolute bottom-0 left-4 p-4">PORTFOLIO FRINGZ</p>
   </main>
   <router-link to="/mentions"> <p class="absolute bottom-0 right-0 p-4">Legal notices</p></router-link>

@@ -226,6 +226,9 @@
         </div>
       </div>
     </div>
+    <a href="https://arquest.eliotgros.fr"
+      ><bouton class="mx-auto mt-16 w-1/2 text-sm uppercase lg:mt-20 lg:text-xl">see the website</bouton></a
+    >
   </div>
 </template>
 

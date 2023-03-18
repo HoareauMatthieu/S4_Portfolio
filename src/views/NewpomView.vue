@@ -173,7 +173,7 @@
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>
           </div>
           <p class="reveal w-full text-justify text-xs duration-500">
-            You can click on the images to get the files arguing each of the design choices I made.
+            You can click on the button on the bottom to get the files arguing each of the design choices I made.
           </p>
           <img class="mt-6 mb-6 w-full object-cover" src="/image/Np/doss2.png" alt="" @click="showOverlay(6)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown6">
@@ -205,7 +205,7 @@
         </div>
         <div class="flex w-full flex-row-reverse items-end">
           <p class="duration-800 w-1/3 pl-9 pb-6 pr-20 text-justify text-xs opacity-0 transition-opacity" :id="descriptionId4">
-            You can click on the images to get the files arguing each of the design choices I made.
+            You can click on the button on the bottom to get the files arguing each of the design choices I made.
           </p>
           <img class="h-60 w-1/3 object-cover object-center" src="/image/Np/doss2.png" alt="" @click="showOverlay(6)" />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown6">
@@ -223,6 +223,7 @@
         </div>
       </div>
     </div>
+    <a href="/image/brandguide.pdf"><bouton class="mx-auto mt-7 w-1/2 text-sm uppercase lg:mt-20 lg:text-xl">see the file</bouton></a>
   </div>
 </template>
 

@@ -21,6 +21,7 @@ import NewpomView from '../views/NewpomView.vue'
 import ArquestView from '../views/ArquestView.vue'
 import AlphaView from '../views/AlphaView.vue'
 import FestView from '../views/FestView.vue'
+import GalleryView from '../views/GalleryView.vue'
 import P404View from '../views/P404View.vue'
 
 
@@ -49,6 +50,7 @@ const router = createRouter({
     { path: '/alpha', name: 'alpha', component: AlphaView },
     { path: '/fest', name: 'fest', component: FestView },
     { path: '/np', name: 'newpom', component: NewpomView },
+    { path: '/gallery', name: 'gallery', component: GalleryView },
 
 
     {
