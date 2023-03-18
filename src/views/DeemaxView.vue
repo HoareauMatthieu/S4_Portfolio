@@ -1,14 +1,14 @@
 <template>
   <div class="h-4/6 bg-blue-400 sm:h-4/6">
-    <img class="h-1/3 w-full object-cover" src="/image/Cap/Cover.jpg" alt="" @click="showOverlay(1)" />
+    <img class="h-1/3 w-full object-cover" src="/image/Cap/Cover.jpg" alt="Deemax" @click="showOverlay(1)" />
     <div class="overlay" v-if="overlayShown1">
       <img class="object-contain" :src="overlayImageSrc1" @click="hideOverlay" />
     </div>
-    <img class="h-1/3 w-full object-cover" src="/image/Cap/DEEM.jpg" alt="" @click="showOverlay(2)" />
+    <img class="h-1/3 w-full object-cover" src="/image/Cap/DEEM.jpg" alt="Deemax" @click="showOverlay(2)" />
     <div class="overlay" v-if="overlayShown2">
       <img class="object-contain" :src="overlayImageSrc2" @click="hideOverlay" />
     </div>
-    <img class="h-1/3 w-full object-cover" src="/image/Cap/DEEV8.jpg" alt="" @click="showOverlay(3)" />
+    <img class="h-1/3 w-full object-cover" src="/image/Cap/DEEV8.jpg" alt="Deemax" @click="showOverlay(3)" />
     <div class="overlay" v-if="overlayShown3">
       <img class="object-contain" :src="overlayImageSrc3" @click="hideOverlay" />
     </div>

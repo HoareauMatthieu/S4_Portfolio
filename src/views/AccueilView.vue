@@ -3,10 +3,10 @@
     <div class="pt-36">
       <span class="sr-only">Accueil</span>
 
-      <div class="mx-12 hidden justify-between pt-32 text-sm uppercase lg:flex">
+      <div class="mx-12 hidden justify-between pt-20 text-sm uppercase lg:flex">
         <p>Matthieu Hoareau | Fringz</p>
         <p>Digital Designer</p>
-        <p>Visual Porduction</p>
+        <p>Visual Production</p>
         <p>Brand Identity</p>
       </div>
 
@@ -14,7 +14,7 @@
         <h1 class="lg:hidden">Matthieu Hoareau | Fringz</h1>
         <!-- DIV 1 -->
         <div class="boxcontainer lg:w-10/12">
-          <img class="h-full w-full" src="/image/Bleu/video.gif" alt="" />
+          <img class="h-full w-full" src="/image/Bleu/video.gif" alt="image" />
           <div class="banner">
             <h1 class="text-8xl font-bold leading-none lg:text-max">PORT FOLIO</h1>
           </div>
@@ -44,12 +44,12 @@
           </Bouton>
           <Bouton class="col-span-2 list-none text-xs sm:text-xl">
             <li>
-              <router-link to="/illu">--> Illustration Work</router-link>
+              <router-link to="/illu">--> Illustration Works</router-link>
             </li>
           </Bouton>
           <Bouton class="col-span-2 col-start-2 list-none text-xs sm:text-xl" id="button2">
             <li>
-              <router-link to="/scolaire">--> School Project</router-link>
+              <router-link to="/scolaire">--> School projects</router-link>
             </li>
           </Bouton>
 
