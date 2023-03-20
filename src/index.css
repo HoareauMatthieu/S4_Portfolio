@@ -20,22 +20,6 @@
 }
 
 
-html {
-  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><circle cx='25' cy='15' r='10' stroke='white' fill='none'/></svg>"), auto;
-}
-
-@keyframes scrolltxt {
-  0% {
-    transform: translate(0,0);
-  }
-  100% {
-    transform: translate(-100%,0);
-  }
-}
-
-.scrolltxt {
-  animation: scrolltxt 10s linear infinite;
-}
 
 
 .boxcontainer{
