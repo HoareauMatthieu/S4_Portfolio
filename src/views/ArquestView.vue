@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-32 sm:ml-24 sm:mr-24">
+  <div class="mt-32 sm:ml-24 sm:mr-24  bg-black">
     <div class="-mb-16 h-screen">
       <h1 class="mb-7 ml-6 text-4xl font-bold tracking-tight sm:ml-0 sm:text-7xl">Arquest</h1>
       <div class="h-4/6 bg-blue-400 sm:h-4/6">

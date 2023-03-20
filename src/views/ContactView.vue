@@ -1,5 +1,5 @@
 <template class="container h-screen overflow-hidden ">
-  <div class="hidden lg:block">
+  <div class="hidden bg-black lg:block">
     <div class="flex flex-col gap-6">
       <h1 class="duration-800 mt-48 text-center text-7xl font-bold opacity-100 transition-opacity lg:opacity-0" :id="descriptionId">
         CONTACT ME FOR YOUR PROJECT

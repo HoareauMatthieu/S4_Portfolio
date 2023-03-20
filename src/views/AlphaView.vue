@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-32 sm:ml-24 sm:mr-24">
+  <div class="mt-32 bg-black sm:ml-24 sm:mr-24">
     <div class="-mb-16 h-screen">
       <h1 class="mb-7 ml-6 text-4xl font-bold tracking-tight sm:ml-0 sm:text-7xl">Alpha Ghetti</h1>
       <div class="h-4/6 bg-blue-400 sm:h-4/6">
@@ -147,7 +147,12 @@
           >
             Tasty aspect.
           </h2>
-          <img class="h-52 w-1/2 object-cover object-center pr-32" src="/image/alpha/alphapatron.jpg" alt="conserve" @click="showOverlay(3)" />
+          <img
+            class="h-52 w-1/2 object-cover object-center pr-32"
+            src="/image/alpha/alphapatron.jpg"
+            alt="conserve"
+            @click="showOverlay(3)"
+          />
           <div class="overlay bg-black bg-opacity-95" v-if="overlayShown3">
             <img class="w-1/2 object-contain" :src="overlayImageSrc3" @click="hideOverlay" />
             <p class="text-sm uppercase" @click="hideOverlay">(Click to close)</p>

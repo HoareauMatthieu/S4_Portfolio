@@ -1,6 +1,6 @@
 <template class="container h-screen overflow-hidden ">
   <main>
-    <div class="pt-36">
+    <div class="bg-black pt-36">
       <span class="sr-only">Accueil</span>
 
       <div class="mx-12 hidden justify-between pt-20 text-sm uppercase lg:flex">

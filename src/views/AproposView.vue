@@ -1,6 +1,6 @@
 <template class="container h-screen overflow-hidden 0">
   <main>
-    <div class="mt-56">
+    <div class="mt-56 bg-black">
       <img src="/image/Fringz/Propos.gif" alt="Description de l'image" class="mr-auto ml-auto h-auto w-72 object-cover" />
       <h1 class="mt-4 text-center text-2xl font-bold uppercase tracking-tight">Fringz</h1>
       <p class="mx-auto w-11/12 pt-3 text-center text-xs font-bold sm:w-6/12 lg:w-5/12">MATTHIEU HOAREAU</p>

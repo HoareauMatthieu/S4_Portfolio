@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex w-full overflow-hidden pt-16">
+  <div class="relative flex w-full overflow-hidden bg-black pt-16">
     <span class="scrolltxt whitespace-nowrap text-6xl font-semibold uppercase">Art direction Art direction &nbsp;</span>
     <span class="scrolltxt whitespace-nowrap text-6xl font-semibold uppercase">Art direction Art direction &nbsp;</span>
   </div>
