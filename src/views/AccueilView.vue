@@ -27,7 +27,7 @@
         <!------------------------------------------------------------------------------------------------------------------------->
         <!-- DIV 3 (cachée) -->
 
-        <div class="flex justify-between text-xs lg:hidden">
+        <div class="flex justify-between pb-24 text-xs lg:hidden">
           <p>Designer Digital</p>
           <p>Visual Production</p>
           <p>Visual Identity</p>
