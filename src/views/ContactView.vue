@@ -4,7 +4,7 @@
       <h1 class="duration-800 mt-48 text-center text-7xl font-bold opacity-100 transition-opacity lg:opacity-0" :id="descriptionId">
         CONTACT ME FOR YOUR PROJECT
       </h1>
-      <p class="mx-auto w-1/2 text-center text-xs" :id="descriptionId3">
+      <p class="duration-800 mx-auto w-1/2 text-center text-xs opacity-100 transition-opacity lg:opacity-0" :id="descriptionId2">
         For all your visual projects ( Art direction, Animation, visual creation, print...) do not hesitate to contact me. I would be very
         happy that we collaborate together!
       </p>
@@ -13,7 +13,7 @@
       </bouton>
       <div
         class="duration-800 mx-auto grid w-2/3 grid-cols-2 grid-rows-2 gap-4 text-center opacity-100 transition-opacity md:grid-cols-4 lg:opacity-0"
-        :id="descriptionId2"
+        :id="descriptionId3"
       >
         <img src="/image/Bleu/Cover.jpg" alt="Image 1" class="h-full w-full object-cover" />
         <img src="/image/FL/FL.jpg" alt="Image 2" class="h-full w-full object-cover" />
