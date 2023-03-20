@@ -16,8 +16,8 @@
     <div class="flex flex-col items-center">
       <p class="text-center text-sm text-white">©2023 Matthieu Hoareau Portfolio. All rights reserved</p>
       <div class="flex flex-row gap-5 pt-7">
-        <instagram />
-        <twitter />
+        <a href="https://www.instagram.com/7fringz/"> <instagram /></a>
+        <a href="https://twitter.com/7Fringz"> <twitter /></a>
       </div>
     </div>
   </div>
